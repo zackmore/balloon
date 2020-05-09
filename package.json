@@ -1,0 +1,20 @@
+{
+  "name": "balloon",
+  "version": "1.0.0",
+  "description": "An always-on-top browser window",
+  "main": "./app/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/zackmore/balloon",
+  "keywords": [
+    "always-on-top",
+    "Electron",
+    "browser"
+  ],
+  "author": "zackmore",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.2.5"
+  }
+}

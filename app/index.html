@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>🎈Balloon</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <nav id="menu">
+      <i id="goto">🎈</i>
+      <button id="refresh">
+        🔄
+      </button>
+      <button id="forward">
+        ➡️
+      </button>
+      <button id="back">
+        ⬅️
+      </button>
+    </nav>
+    <div id="popup">
+      <form>
+        <input type="text" placeholder="Go to https://">
+      </form>
+    </div>
+    <webview id="view" src="about:blank"></webview>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>
